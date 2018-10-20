@@ -1,10 +1,10 @@
+@import "utilities/mixins";
+@import "utilities/variables";
+
 @import "base/base";
 @import "base/reset";
 
+@import "layout/containers";
+@import "layout/_navigation";
 
-@import "componentes";
-
-
-@import "layout/mixins";
-@import "layout/variables";
 
