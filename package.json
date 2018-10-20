@@ -1,0 +1,22 @@
+{
+  "name": "cactus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeSudo/Cactus.git"
+  },
+  "author": "Mouawad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeSudo/Cactus/issues"
+  },
+  "homepage": "https://github.com/CodeSudo/Cactus#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.4"
+  }
+}
