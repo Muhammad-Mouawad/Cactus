@@ -1,0 +1,69 @@
+.footer {
+  padding: 10rem 0;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  &__heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+  &__box {
+    list-style: none;
+  }
+  &__item {
+    padding: 0.5rem;
+  }
+  &__link:link,
+  &__link:visited {
+    text-decoration: none;
+    color: #777;
+    font-size: 1.5rem;
+  }
+  &__link:hover,
+  &__link:active {
+    color: #777;
+  }
+  &__text {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+  &__social--link:link,
+  &__social--link:visited {
+    color: #777;
+    background: #f9f9ff;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 1rem;
+    margin-right: 1rem;
+  }
+  &__social--link:hover,
+  &__social--link:active {
+    color: #fff;
+    background: $color-primary;
+  }
+  &__bottom {
+    text-align: center;
+    margin-top: 5rem;
+
+    &--text {
+      color: #555;
+      font-size: 1.5rem;
+      border-top: 1px solid #dfe4ea;
+      padding-top: 4rem;
+    }
+  }
+  &__icon {
+    color: $color-primary;
+  }
+  &__name:link,
+  &__name:visited {
+    color: $color-primary;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 3px;
+  }
+}

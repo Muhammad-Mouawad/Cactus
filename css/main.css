@@ -265,7 +265,7 @@ body {
   grid-area: item6; }
 
 .clients {
-  padding: 20rem 0; }
+  padding: 10rem 0; }
   .clients__box {
     display: flex;
     justify-content: center; }
@@ -293,3 +293,52 @@ body {
     .clients__box--right {
       max-width: 60%;
       padding: 4rem; }
+
+.footer {
+  padding: 10rem 0; }
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch; }
+  .footer__heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem; }
+  .footer__box {
+    list-style: none; }
+  .footer__item {
+    padding: 0.5rem; }
+  .footer__link:link, .footer__link:visited {
+    text-decoration: none;
+    color: #777;
+    font-size: 1.5rem; }
+  .footer__link:hover, .footer__link:active {
+    color: #777; }
+  .footer__text {
+    font-size: 1.4rem;
+    margin-bottom: 2rem; }
+  .footer__social--link:link, .footer__social--link:visited {
+    color: #777;
+    background: #f9f9ff;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 1rem;
+    margin-right: 1rem; }
+  .footer__social--link:hover, .footer__social--link:active {
+    color: #fff;
+    background: #6cbb23; }
+  .footer__bottom {
+    text-align: center;
+    margin-top: 5rem; }
+    .footer__bottom--text {
+      color: #555;
+      font-size: 1.5rem;
+      border-top: 1px solid #dfe4ea;
+      padding-top: 4rem; }
+  .footer__icon {
+    color: #6cbb23; }
+  .footer__name:link, .footer__name:visited {
+    color: #6cbb23;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 3px; }
