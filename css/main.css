@@ -3,7 +3,8 @@
 *::after {
   padding: 0;
   margin: 0;
-  box-sizing: inherit; }
+  box-sizing: inherit;
+  outline: 0; }
 
 html {
   font-size: 62.5%;
@@ -17,6 +18,12 @@ body {
   margin: 50px;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.2);
   background: #f6f6fc; }
+
+::placeholder {
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  font-weight: 100; }
 
 .row {
   max-width: 114rem;
@@ -56,6 +63,65 @@ body {
   transform: rotate(45deg);
   border-radius: 15%;
   vertical-align: middle; }
+
+.info {
+  padding: 10rem 0;
+  background-image: linear-gradient(to right bottom, rgba(108, 187, 35, 0.8), rgba(108, 187, 35, 0.8)), url(../img/banner-bg.jpg); }
+  .info__heading {
+    text-align: center;
+    color: #fff; }
+    .info__heading--main {
+      font-size: 3.6rem;
+      font-weight: 100; }
+    .info__heading--span {
+      font-weight: 500; }
+    .info__heading--text {
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-bottom: 3rem; }
+  .info__form {
+    text-align: center; }
+    .info__form--input-box {
+      display: flex;
+      justify-content: space-evenly; }
+    .info__form--input {
+      font-size: 1.5rem;
+      font-weight: 100;
+      border: 1px solid #fff;
+      line-height: 4.8rem;
+      width: 40%;
+      background: transparent;
+      color: #fff;
+      margin-bottom: 2rem; }
+    .info__form--textarea {
+      border: 1px solid #fff;
+      width: 87%;
+      height: 20rem;
+      background: transparent;
+      color: #fff;
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+      font-weight: 100;
+      padding: 1rem 0; }
+    .info__form--areabox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    .info__form--btn {
+      background: #fff;
+      font-size: 1.7rem;
+      font-weight: 200;
+      padding: 1rem 3rem;
+      border-radius: 10rem;
+      border: 1px solid #6cbb23;
+      transition: all 0.3s;
+      color: #6cbb23;
+      cursor: pointer;
+      transition: all 0.2;
+      position: relative; }
+      .info__form--btn:hover {
+        padding: 1rem 3.5rem; }
 
 .about {
   padding: 10rem 0;

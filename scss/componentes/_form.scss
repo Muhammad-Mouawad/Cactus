@@ -1,0 +1,80 @@
+.info {
+  padding: 10rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary, 0.8),
+      rgba($color-primary, 0.8)
+    ),
+    url(../img/banner-bg.jpg);
+
+  &__heading {
+    text-align: center;
+    color: #fff;
+
+    &--main {
+      font-size: 3.6rem;
+      font-weight: 100;
+    }
+    &--span {
+      font-weight: 500;
+    }
+    &--text {
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-bottom: 3rem;
+    }
+  }
+  &__form {
+    text-align: center;
+
+    &--input-box {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    &--input {
+      font-size: 1.5rem;
+      font-weight: 100;
+      border: 1px solid #fff;
+      line-height: 4.8rem;
+      width: 40%;
+      background: transparent;
+      color: #fff;
+      margin-bottom: 2rem;
+    }
+    &--textarea {
+      border: 1px solid #fff;
+      width: 87%;
+      height: 20rem;
+      background: transparent;
+      color: #fff;
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+      font-weight: 100;
+      padding: 1rem 0;
+    }
+    &--areabox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &--btn {
+      background: #fff;
+      font-size: 1.7rem;
+      font-weight: 200;
+      padding: 1rem 3rem;
+      border-radius: 10rem;
+      border: 1px solid $color-primary;
+      transition: all 0.3s;
+      color: $color-primary;
+      cursor: pointer;
+      transition: all 0.2;
+      position: relative;
+
+      &:hover {
+        padding: 1rem 3.5rem;
+      }
+    }
+  }
+}
