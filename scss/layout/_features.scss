@@ -16,13 +16,12 @@
       "item4 item5 item6";
 
     &--item {
+      display: block;
+      text-align: center;
       background-color: #fff;
       border-radius: 1rem;
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
       padding: 2rem;
-    }
-    &--divicon {
-      text-align: center;
     }
     &--icon {
       font-size: 10rem;

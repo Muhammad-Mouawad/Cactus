@@ -160,12 +160,12 @@ body {
     grid-gap: 3rem;
     grid-template-areas: "item1 item2 item3" "item4 item5 item6"; }
     .features__box--item {
+      display: block;
+      text-align: center;
       background-color: #fff;
       border-radius: 1rem;
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
       padding: 2rem; }
-    .features__box--divicon {
-      text-align: center; }
     .features__box--icon {
       font-size: 10rem;
       color: #6cbb23;
