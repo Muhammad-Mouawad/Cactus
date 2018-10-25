@@ -1,0 +1,60 @@
+.features {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary, 0.8),
+      rgba($color-primary, 0.8)
+    ),
+    url(../img/video-bg.jpg);
+  background-size: cover;
+  padding: 20rem 0;
+
+  &__box {
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-areas:
+      "item1 item2 item3"
+      "item4 item5 item6";
+
+    &--item {
+      background-color: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+      padding: 2rem;
+    }
+    &--divicon {
+      text-align: center;
+    }
+    &--icon {
+      font-size: 10rem;
+      color: $color-primary;
+      padding: 5rem;
+    }
+    &--heading {
+      font-size: 2rem;
+      font-weight: 500;
+    }
+    &--text {
+      color: #555;
+      font-size: 1.5rem;
+      margin: 1rem 0 3rem 0;
+    }
+  }
+}
+.item1 {
+  grid-area: item1;
+}
+.item2 {
+  grid-area: item2;
+}
+.item3 {
+  grid-area: item3;
+}
+.item4 {
+  grid-area: item4;
+}
+.item5 {
+  grid-area: item5;
+}
+.item6 {
+  grid-area: item6;
+}

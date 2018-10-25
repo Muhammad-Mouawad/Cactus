@@ -150,3 +150,48 @@ body {
     .heading__primary--span2 {
       font-weight: 600;
       color: #6cbb23; }
+
+.features {
+  background-image: linear-gradient(to right bottom, rgba(108, 187, 35, 0.8), rgba(108, 187, 35, 0.8)), url(../img/video-bg.jpg);
+  background-size: cover;
+  padding: 20rem 0; }
+  .features__box {
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-areas: "item1 item2 item3" "item4 item5 item6"; }
+    .features__box--item {
+      background-color: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+      padding: 2rem; }
+    .features__box--divicon {
+      text-align: center; }
+    .features__box--icon {
+      font-size: 10rem;
+      color: #6cbb23;
+      padding: 5rem; }
+    .features__box--heading {
+      font-size: 2rem;
+      font-weight: 500; }
+    .features__box--text {
+      color: #555;
+      font-size: 1.5rem;
+      margin: 1rem 0 3rem 0; }
+
+.item1 {
+  grid-area: item1; }
+
+.item2 {
+  grid-area: item2; }
+
+.item3 {
+  grid-area: item3; }
+
+.item4 {
+  grid-area: item4; }
+
+.item5 {
+  grid-area: item5; }
+
+.item6 {
+  grid-area: item6; }
