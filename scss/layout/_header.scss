@@ -1,6 +1,11 @@
 .header {
   position: relative;
   height: 100vh;
+  &__photo--img {
+    @include respond(tab-port) {
+      width: 70%;
+    }
+  }
   &__box {
     position: absolute;
     top: 45%;
@@ -12,18 +17,48 @@
   }
 }
 .heading {
-  margin-left: 10rem;
+  margin-left: 5rem;
+
+  @include respond(tab-port) {
+    margin-left: 0;
+  }
 
   &__primary {
     font-size: 5rem;
     font-weight: 100;
     margin-bottom: 6rem;
+    @include respond(big-desktop) {
+      font-size: 4rem;
+    }
+    @include respond(tab-land) {
+      font-size: 3rem;
+    }
+    @include respond(tab-port) {
+      font-size: 2.5rem;
+      font-weight: 300;
+    }
+    @include respond(phone) {
+      font-size: 2rem;
+      font-weight: 300;
+    }
     &--span {
       font-weight: 600;
+      @include respond(tab-land) {
+        font-size: 2.5rem;
+      }
+      @include respond(tab-port) {
+        font-size: 2rem;
+      }
     }
     &--span2 {
       font-weight: 600;
       color: $color-primary;
+      @include respond(tab-land) {
+        font-size: 2.5rem;
+      }
+      @include respond(tab-port) {
+        font-size: 2rem;
+      }
     }
   }
 }
