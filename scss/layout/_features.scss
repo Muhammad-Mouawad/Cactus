@@ -1,4 +1,11 @@
 .features {
+  background-image: -webkit-gradient(
+      linear,
+      left top, right bottom,
+      from(rgba($color-primary, 0.8)),
+      to(rgba($color-primary, 0.8))
+    ),
+    url(../img/video-bg.jpg);
   background-image: linear-gradient(
       to right bottom,
       rgba($color-primary, 0.8),
@@ -17,19 +24,27 @@
     @include respond(tab-port) {
       width: 90%;
       margin-left: 5rem;
+      grid-template-areas:
+        "item1 item2"
+        "item3 item4"
+        " item5 item6";
     }
     @include respond(phone) {
       grid-template-areas:
-        "item1 item2"
-        "item3 item4 "
-        "item5 item6";
-      margin-left: 2.5rem;
+        "item1"
+        "item2"
+        "item3"
+        "item4 "
+        "item5"
+        "item6";
+      margin-left: 2rem;
     }
 
     &--item {
       background-color: #fff;
       border-radius: 1rem;
-      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+              box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
       padding: 2rem;
       @include respond(tab-port) {
         font-size: 0.5em;
