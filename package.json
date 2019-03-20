@@ -18,5 +18,8 @@
   "homepage": "https://github.com/CodeSudo/Cactus#readme",
   "devDependencies": {
     "node-sass": "^4.9.4"
+  },
+  "dependencies": {
+    "sass": "^1.14.3"
   }
 }
